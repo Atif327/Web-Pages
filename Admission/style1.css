@@ -1,0 +1,201 @@
+
+
+.main   
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 4px solid white;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30%  1fr ;
+    gap: 10px;
+
+    
+}
+
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;  
+        grid-template-rows: auto 1fr;
+    }
+    }
+
+.application
+{
+    
+    background-color:rgb(28, 25, 25) ;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto repeat(6,auto);
+}
+
+.steps
+{
+    background-color: rgb(72, 66, 66);
+    padding: 10px;
+    color: white;
+}
+
+.means p {
+    margin: 0;  
+    padding: 0; 
+    
+}
+
+.means
+{
+    background-color: rgb(28, 25, 25);
+    color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed silver;
+}
+.means i
+{
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+.personal
+{
+    background-color:rgb(72, 66, 66); ;
+}
+.bar
+{
+    color: white;
+    padding: 14px;
+}
+.bar i
+{
+    margin-left: 20px;
+
+}
+
+
+
+.mainpernonal
+{  
+    background-color: white;
+    border: 1px solid silver;
+}
+
+.personald
+{
+    padding: 10px;
+    font-weight: 700;
+    background-color: rgb(48, 48, 195);
+    color: white;
+}
+
+.name input
+{
+    padding: 7px;
+    width: 49%;
+    border-radius: 4px solid silver;
+
+}
+
+label
+{
+    padding: 7px;
+    font-weight: 700;
+}
+
+.abc
+{
+    margin-left: 20%;
+}
+.cdf
+{
+    margin-left: 14%;
+}
+
+#day
+{
+    margin-left: 21%;
+}
+#day,#month,#year 
+{
+    
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.opt
+{
+    margin-left: 18.48%;
+     padding: 10px;
+    border-radius: 4px;
+    width: 21%;
+}
+
+.nat
+{
+   margin-left: 15.3%;
+    padding: 10px;
+    border-radius: 4px;
+    width: 21%; 
+}
+
+.dom
+{
+    margin-left: 17.7%;
+    padding: 10px;
+    border-radius: 4px;
+    width: 33%; 
+}
+
+.cnic
+{
+    display: flex;
+    
+}
+
+
+#xx 
+{
+   margin-left: 21%;
+   width: 100px;
+   padding: 4px;
+ 
+}
+
+#yy 
+{
+  padding: 7px;
+ 
+}
+#zz
+{
+    width: 20px;
+}
+
+.cnic input
+{
+    padding: 7px;
+}
+
+
+.num
+{
+    display: flex;
+}
+
+
+#num
+{
+    margin-left: 19.4%;
+    padding: 10px;
+    border-radius: 4px;
+    
+
+}
+
+.num input
+{
+    margin-left: 4px;
+    border-radius: 4px solid grey;
+}
+
+
+

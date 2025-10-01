@@ -1,0 +1,55 @@
+.main
+{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+h2
+{
+    color: red;
+    display: block;
+    
+}
+
+.admission
+{
+    text-align: center;
+
+  
+}
+
+.info
+{
+    display: flex;
+    justify-content: center;
+}
+.data
+{
+    background-color: lightgray;
+    padding: 14px;
+    width: 30%;
+   
+}
+
+input
+{
+    padding: 7PX;
+    width: 97%;
+  
+}
+#Campus
+{
+    padding: 7PX;   
+    width: 100%;
+}
+
+button
+{
+    padding: 7px;
+    width: 170px;
+    background-color: orange;
+    color: white;
+    border-radius: 4px;
+}
